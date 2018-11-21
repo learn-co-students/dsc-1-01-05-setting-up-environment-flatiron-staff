@@ -8,4 +8,4 @@ def test_access_to_notebook():
     assert x == 4, "The importing of values from the notebook does not appear to be working correctly"
 
 def test_designed_to_fail():
-    assert x == 3, "This test *should* fail - if it doesn't, something is wrong!"
+    assert x == 4, "This test *should* fail - if it doesn't, something is wrong!"
